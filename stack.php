@@ -37,10 +37,10 @@ for ($i = 1; $i <= 20; ++$i) {
     $s1->push($i);
 }
 
+// shows top element
+echo $s1->top() . "\n";
+
 // pop all values
 // while (($val = $s1->pop()) != null) {
 //     echo $val . "\n";
 // }
-
-// shows top element
-echo $s1->top() . "\n";
