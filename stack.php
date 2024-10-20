@@ -26,6 +26,10 @@ class Stack {
         }
         return end($this->_stack);
     }
+
+    public function size() {
+        return count($this->_stack);
+    }
     
 }
 
@@ -39,6 +43,9 @@ for ($i = 1; $i <= 20; ++$i) {
 
 // shows top element
 echo $s1->top() . "\n";
+
+// shows stack size
+echo $s1->size() . "\n";
 
 // pop all values
 // while (($val = $s1->pop()) != null) {
