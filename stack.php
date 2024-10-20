@@ -21,8 +21,12 @@ class Stack {
     }
 
     public function top() {
-        // Implement this method
+        if (count($this->_stack) == 0) {
+            return null;
+        }
+        return end($this->_stack);
     }
+    
 }
 
 // example usage
@@ -34,6 +38,9 @@ for ($i = 1; $i <= 20; ++$i) {
 }
 
 // pop all values
-while (($val = $s1->pop()) != null) {
-    echo $val . "\n";
-}
+// while (($val = $s1->pop()) != null) {
+//     echo $val . "\n";
+// }
+
+// shows top element
+echo $s1->top() . "\n";
