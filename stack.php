@@ -30,6 +30,10 @@ class Stack {
     public function size() {
         return count($this->_stack);
     }
+
+    public function printStack() {
+        return implode(",", $this->_stack);
+    }
     
 }
 
@@ -47,7 +51,11 @@ echo $s1->top() . "\n";
 // shows stack size
 echo $s1->size() . "\n";
 
+// shows array contents
+echo $s1->printStack() . "\n";
+
 // pop all values
 // while (($val = $s1->pop()) != null) {
 //     echo $val . "\n";
 // }
+
