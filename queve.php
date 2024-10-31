@@ -30,6 +30,10 @@ class Queue {
     public function printQueue() {
         return implode(",", $this->_queue);
     }
+
+    public function reverseQueve() {
+        $this->_queue = array_reverse($this->_queue);
+    }
 }
 
 // example usage
@@ -47,4 +51,8 @@ echo $q1->first() . "\n";
 echo $q1->size() . "\n";
 
 // shows queue contents
+echo $q1->printQueue() . "\n";
+
+// shows reversed queve
+$q1->reverseQueve();
 echo $q1->printQueue() . "\n";
