@@ -43,8 +43,8 @@ for ($i = 5; $i <= 15; ++$i) {
 // shows first element
 echo $q1->first() . "\n";
 
-// Shows queue size
+// shows queue size
 echo $q1->size() . "\n";
 
-// Shows queue contents
+// shows queue contents
 echo $q1->printQueue() . "\n";
