@@ -39,20 +39,20 @@ class Queue {
 // example usage
 $q1 = new Queue(15);
 
-// add values 1-20
+// add elements to the queve
 for ($i = 5; $i <= 15; ++$i) {
     $q1->add($i);
 }
 
-// shows first element
+// shows first element in the queve
 echo $q1->first() . "\n";
 
-// shows queue size
+// shows queve size
 echo $q1->size() . "\n";
 
-// shows queue contents
+// shows all queve elements
 echo $q1->printQueue() . "\n";
 
-// shows reversed queve
+// reverse and shows the queue elements
 $q1->reverseQueve();
 echo $q1->printQueue() . "\n";
