@@ -14,7 +14,7 @@ class Stack {
         }
         $this->_stack[] = $n;
         return true;
-    }
+    } 
 
     public function pop() {
         return array_pop($this->_stack);
