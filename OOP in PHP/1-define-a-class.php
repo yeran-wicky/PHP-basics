@@ -16,7 +16,7 @@ echo '</pre>';
 
 $class_name_1 = 'Employee';
 
-if (class_exists($class_name_1)) {    //Checks if a particular class exists and returns true OR false
+if (class_exists($class_name_1)) {    // Checks if a particular class exists and returns true OR false
     echo '<pre>Class ' . $class_name_1 . ' is avaliable.</pre>';
 }
 else{
@@ -27,7 +27,7 @@ else{
 
 $class_name_2 = 'Fruit';
 
-if (class_exists($class_name_2)) {    //Checks if a particular class exists and returns true OR false
+if (class_exists($class_name_2)) {    // Checks if a particular class exists and returns true OR false
     echo '<pre>Class ' . $class_name_2 . ' is avaliable.</pre>';
 }
 else{
