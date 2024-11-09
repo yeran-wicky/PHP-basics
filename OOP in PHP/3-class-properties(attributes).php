@@ -2,6 +2,7 @@
 
 class Employee {
 
+    // Created 4 properties (variables)
     var $emp_id;
     var $first_name;
     var $last_name;
@@ -86,4 +87,3 @@ if ($var4) {
 else {
     echo '<pre>Property "country" cannot found in "Employee" class</pre>';
 }
-
